@@ -1,0 +1,55 @@
+.sidebar {
+  width: 250px;
+  background-color: #202020;
+  color: white;
+  padding: 15px;
+  border-right: 1px solid #3c3c3c;
+}
+
+.sidebar h3 {
+  margin-bottom: 15px;
+  color: #00bfff;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+}
+
+.file-item {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.file-item:hover {
+  background-color: #333;
+}
+.file {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.file:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #007acc;
+}
+.new-file-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.new-file-btn:hover {
+  background: #005fa3;
+}
